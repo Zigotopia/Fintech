@@ -30,25 +30,25 @@ const SideNav = () => {
           <span>
             <img src={webhooks} alt="" />
           </span>
-          <a href="-">Webhooks</a>
+          <a href="">Webhooks</a>
         </li>
         <li>
           <span>
             <img src={configuracoes} alt="" />
           </span>
-          <a href="-">Configurações</a>
+          <a href="">Configurações</a>
         </li>
         <li>
           <span>
             <img src={contato} alt="" />
           </span>
-          <a href="-">Contato</a>
+          <a href="">Contato</a>
         </li>
         <li>
           <span>
             <img src={sair} alt="" />
           </span>
-          <a href="-">Sair</a>
+          <a href="">Sair</a>
         </li>
       </ul>
     </nav>
