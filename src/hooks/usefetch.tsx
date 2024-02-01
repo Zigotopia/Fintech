@@ -45,7 +45,7 @@ export default function useFetch<T>(
 		return () => {
 			controller.abort();
 		};
-	}, [url, options]);
+	}, [url]);
 
 	return {
 		data,
