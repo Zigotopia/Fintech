@@ -1,5 +1,5 @@
 import SideNav from "./components/SideNav.tsx";
-import Header from "./components/Header.tsx";
+import Header from "./components/PageHeader.tsx";
 import Resume from "./pages/Resume.tsx";
 import DataContextProvider from "./contexts/dataContext.tsx";
 import Vendas from "./pages/Vendas.tsx";
