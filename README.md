@@ -11,7 +11,7 @@ The Fintech app is a dashboard developed in React + TypeScript that provides a d
 
 ## Technologies
 
-- **Front-end**: ReactJS, TypeScript
+- **Front-end**: ReactJS, TypeScript, Vite
 - **Charting Library**: Recharts
 - **Styling Library**: Css3
 
