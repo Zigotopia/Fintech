@@ -1,30 +1,35 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Fintech App
 
-Currently, two official plugins are available:
+## Project Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The Fintech app is a dashboard developed in React + TypeScript that provides a detailed summary of a company's sales. The app offers the following features:
 
-## Expanding the ESLint configuration
+- **Sales Summary**: Displays the values received, the payment status, and the payment method for each sale made in the last three months.
+- **Data Filter**: Allows users to filter sales data by specific month, facilitating the analysis of specific periods.
+- **Payment Graph**: Visualizes the distribution of sales values in a pie chart, categorizing them by payment status (paid, processing, and failed). This feature provides an overview of sales performance and helps identify potential problems.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies
 
-- Configure the top-level `parserOptions` property like this:
+- **Front-end**: ReactJS, TypeScript
+- **Charting Library**: Recharts
+- **Styling Library**: Css3
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Requirements
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Node.js
+- Yarn or NPM
+- Any Gen Z Browser
+
+## What Was Trained and Learned
+
+- **Using TypeScript with React**: This project provided hands-on experience with integrating TypeScript with React, including type checking, interfaces, and classes.
+- **Utilizing the Recharts library**: The project involved using the Recharts library to create interactive and customizable charts, enhancing the data visualization capabilities of the application.
+
+## Notes
+
+- The Fintech application is a demonstrative model, subject to customization according to the specific needs of each company.
+- The sales information present in the application is fictitious and serves for illustrative purposes only.
+
+
+ 
