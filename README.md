@@ -1,5 +1,5 @@
 
-# Fintech App
+# Fintech 
 
 ## Project Description
 
