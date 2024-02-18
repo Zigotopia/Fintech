@@ -8,11 +8,14 @@ import configuracoes from "./../assets/icons/configuracoes.svg";
 import contato from "./../assets/icons/contato.svg";
 import sair from "./../assets/icons/sair.svg";
 import { NavLink } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const SideNav = () => {
   return (
     <nav className=" sidenav box bg-3">
-      <FintechSvg />
+      <NavLink to="/">
+        <FintechSvg />
+      </NavLink>
       <ul>
         <li>
           <span>
